@@ -205,3 +205,21 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Model weights
+*.pt
+*.onnx
+*.bin
+*.param
+
+# Dataset
+datasets/
+data/
+*.jpg
+*.png
+*.mp4
+
+# Logs and outputs
+runs/
+logs/
+results.csv
